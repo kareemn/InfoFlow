@@ -1,0 +1,21 @@
+Email Infoflow Visualizer
+by Kareem Nassar
+
+Invoke `make' to compile the c++ portion of the code. The java portion of the email parser is prepackaged into a .jar file. The source code is also included for the java portion.
+
+Invoke `./run' in order to run the sample:
+./infoflow -p maildir/lay-k -t kenneth.lay@enron.com -l 3
+
+The commandline format is as follows:
+./infoflow -p <name of folder> -t <name of target node to start from> -l <num levels out>
+
+A sample mail directory is included `maildir' with emails from Jeff Skilling and Ken Lay from Enron.
+
+You may download the entire public Enron email dataset at http://www.cs.cmu.edu/~enron/
+
+Use 'W' 'A' 'S' 'D' to pan around by STEP_SIZE (which you can change in the source code)
+Use '+' '-' to zoom camera in and out by STEP_SIZE
+
+Enjoy!
+
+Happy Visualizing!
